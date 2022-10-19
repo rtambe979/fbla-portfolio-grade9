@@ -1,0 +1,1 @@
+A program that takes an integer command-line argument 'm', followed by a sequence of positive integer command-line arguments a_1, a_2, ... a_n, and prints m random indices, choosing each index 'i' with probablility proportional to a_i.

@@ -1,0 +1,1 @@
+A program that simulates and proves the birthday problem, where after 23 people enter a room, there is approximately a 50% chance that two share a birthday.

@@ -1,0 +1,1 @@
+A program that takes two integer command-line arguments 'n' and 'width', and brings an n-by-n pattern with a 0 for each element whose distance from the main diagonal is strictly more than width, and an asterisk(*) for each entry that is not.
