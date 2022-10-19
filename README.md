@@ -1,3 +1,3 @@
 # fbla-portfolio
-Has the files with my portfolio for FBLA tech competitions.
-Programmer: Revati Tambe
+Programmer: Revati Tambe  
+Contents: Contains projects included in my portfolio for FBLA tech competitions.
