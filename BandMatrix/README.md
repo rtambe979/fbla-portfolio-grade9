@@ -1,10 +1,48 @@
-
 # Band Matrix
 
-This program takes two integer command-line arguments *n* and *width*, and prints out a band matrix with width *width*. Each element whose distance from the primary diagonal is greater than the width of the matrix is represented as a zero; an asterisk prints for each element that is not. With the knowledge of these restrictions, the user can manipulate the pattern of the matrix.  
-For example, if the user entered "5, 2" into the console, the output would print as following:  
-\* \* \* 0 0  
-\* \* \* \* 0  
-\* \* \* \* \*  
-0 \* \* \* \*  
-0 0 \* \* \* 
+This program takes two integer command-line arguments `n` and `w` and prints a `n x n` matrix as shown below with a zero (`0`) for each element who's distance from the main diagonal is more than the `w` and an asterisk (`*`) for every other entry.
+
+    Usage:
+
+    % java BandMatrix 8 0
+    *  0  0  0  0  0  0  0  
+    0  *  0  0  0  0  0  0  
+    0  0  *  0  0  0  0  0  
+    0  0  0  *  0  0  0  0  
+    0  0  0  0  *  0  0  0  
+    0  0  0  0  0  *  0  0  
+    0  0  0  0  0  0  *  0  
+    0  0  0  0  0  0  0  *  
+
+
+    % java BandMatrix 8 2
+    *  *  *  0  0  0  0  0  
+    *  *  *  *  0  0  0  0  
+    *  *  *  *  *  0  0  0  
+    0  *  *  *  *  *  0  0  
+    0  0  *  *  *  *  *  0  
+    0  0  0  *  *  *  *  *  
+    0  0  0  0  *  *  *  *  
+    0  0  0  0  0  *  *  *
+
+    % java BandMatrix 20 4
+    * * * * * 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    * * * * * * 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    * * * * * * * 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    * * * * * * * * 0 0 0 0 0 0 0 0 0 0 0 0 
+    * * * * * * * * * 0 0 0 0 0 0 0 0 0 0 0 
+    0 * * * * * * * * * 0 0 0 0 0 0 0 0 0 0 
+    0 0 * * * * * * * * * 0 0 0 0 0 0 0 0 0 
+    0 0 0 * * * * * * * * * 0 0 0 0 0 0 0 0 
+    0 0 0 0 * * * * * * * * * 0 0 0 0 0 0 0 
+    0 0 0 0 0 * * * * * * * * * 0 0 0 0 0 0 
+    0 0 0 0 0 0 * * * * * * * * * 0 0 0 0 0 
+    0 0 0 0 0 0 0 * * * * * * * * * 0 0 0 0 
+    0 0 0 0 0 0 0 0 * * * * * * * * * 0 0 0 
+    0 0 0 0 0 0 0 0 0 * * * * * * * * * 0 0 
+    0 0 0 0 0 0 0 0 0 0 * * * * * * * * * 0 
+    0 0 0 0 0 0 0 0 0 0 0 * * * * * * * * * 
+    0 0 0 0 0 0 0 0 0 0 0 0 * * * * * * * * 
+    0 0 0 0 0 0 0 0 0 0 0 0 0 * * * * * * * 
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 * * * * * * 
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 * * * * * 
