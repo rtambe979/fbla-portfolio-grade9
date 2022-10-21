@@ -1,1 +1,0 @@
-This program takes an integer command-line argument *m*. Following the first argument, it takes *n* integer values through the command-line, and calculates their sum. It then prints *m* random values, with an index *i* that has probability proportional to a<sub>i</sub>.

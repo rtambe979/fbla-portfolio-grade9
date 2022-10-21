@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-public class SumDistribution {
+public class DiscreteDistribution {
     public static void main(String[] args) {
         int m = Integer.parseInt(args[0]);
         int length = args.length -  1;
