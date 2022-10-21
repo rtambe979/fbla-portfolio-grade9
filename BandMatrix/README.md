@@ -2,7 +2,7 @@
 
 This program takes two integer command-line arguments `n` and `w` and prints a `n x n` matrix as shown below with a zero (`0`) for each element who's distance from the main diagonal is more than the `w` and an asterisk (`*`) for every other entry.
 
-    Usage:
+### Usage:
 
     % java BandMatrix 8 0
     *  0  0  0  0  0  0  0  
